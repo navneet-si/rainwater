@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins',sans-serif;
+}
+.header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(assets/background.jpg);
+    background-position: center;
+    background-size:cover;
+    height: 100vh;
+    
+   
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar img{
+    border-radius: 100%;
+    height: 80px;
+   
+}
+.navbar ul li{
+    display: inline-block;
+    margin:0px 50px 20px 0;
+    position: relative;
+}
+.navbar ul li::after{
+    content: '';
+    position: absolute;
+    margin: auto;
+    height: 2px;
+    display: block;
+    width: 0%;
+    background: #f44336;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover:after{
+    width:100%;
+}
+.navbar ul li a{
+    color:aliceblue;
+text-decoration: none;
+font-size: 12px;
+}
+.btn{
+   display: inline-block;
+    box-sizing: border-box;
+    border:1px solid aliceblue;
+    padding:10px 22px;
+    color:aliceblue;
+    text-decoration: none;
+    background: transparent;
+    cursor: pointer;
+    transition: 1s;
+}
+.btn:hover{
+    border:1px solid #f44336;
+    background:#f44336;
+
+}
+.text-box{
+    color: aliceblue;
+    text-align: center;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+.text-box h1{
+    font-size: 32px;
+}
+.text-box p{
+    margin:20px 0 40px;
+    font-size: 14;
+}
+.other {
+    width: 90%;
+    margin:auto;
+    padding-top: 100px;
+ 
+}
+.other h1{
+    text-align: center;
+}
+.text-area{
+    
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+}
+.text h4{
+    padding-bottom: 20px;
+}
+.text{
+    
+    padding: 20px;
+}
+.set-img img{
+ border-radius: 10px;
+ height: 150px;
+ width: 200px;
+}
+.Moving{
+    padding-top: 100px;
+    margin: 20px;
+    width:90%;
+    margin-left: 60px;
+}
+.Moving h1{
+    padding-bottom:10px;
+}
+.Moving ul{
+    padding:30px;
+    padding-left: 35px;
+}
+.about-page{
+    display: flex;
+   
+    color:aliceblue;
+    padding: 20px 20px;
+    margin-top:px;
+    font-size: 12px;
+    gap:50%;
+    background-color: #020403;
+    
+}
+.about-page p{
+display: inline-block;
+margin:0 10px;
+}
+
+.about-page  img{
+    width:20px;
+}
+/********************************************/
+/*page 2 css*/
+/********************************************/
+

@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.87);
+   
+}
+.navbar img{
+    border-radius: 100%;
+    height: 80px;
+   
+}
+.navbar ul li{
+    display: inline-block;
+    margin:0px 50px 20px 0;
+    position: relative;
+}
+.navbar ul li::after{
+    content: '';
+    position: absolute;
+    margin: auto;
+    height: 2px;
+    display: block;
+    width: 0%;
+    background: #f44336;
+    transition: 0.5s;
+}
+.navbar ul li:hover:after{
+    width:100%;
+}
+
+.navbar ul li a{
+    color:aliceblue;
+text-decoration: none;
+font-size: 12px;
+}
+.main h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 42px;
+
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.faq-item {
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+}
+
+.faq-item:last-child {
+    border-bottom: none; /* Remove bottom border for last FAQ item */
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Add hover effect to FAQ items */
+.faq-item:hover {
+    background-color: #f5f5f5;
+}
+
+.about-page{
+    display: flex;
+    color:aliceblue;
+    padding: 20px 20px;
+    margin-top:80px;
+    font-size: 12px;
+    gap:50%;
+    background-color: #020403;
+    
+}
+.about-page p{
+display: inline-block;
+margin:0 10px;
+}
+
+.about-page  img{
+    width:20px;
+}
